@@ -1,0 +1,58 @@
+https://github.com/padawan-sloth/HyperionDev-Data-Science-Bootcamp-Portfolio/blob/main/Task%205%20(Capstone%20Project)/finance_calculators.py
+
+Issue 1: Improve Error Handling
+Description for GitHub Issue:
+The current script lacks error handling, which could lead to unexpected crashes or incorrect outputs if the user enters invalid data. This can be improved by adding try-except blocks or input validation checks.
+
+Steps to Resolve:
+Create a Branch:
+
+Command: git checkout -b improve-error-handling
+Implement Changes:
+
+Add input validation checks before converting user inputs to floats or integers.
+Implement try-except blocks to catch and handle exceptions, ensuring the program continues to run and prompts the user for valid input.
+Commit and Push:
+
+Commands:
+
+git add finance_calculators.py
+git commit -m "Improve error handling in finance calculators"
+git push origin improve-error-handling
+
+Create a Pull Request:
+
+Go to the GitHub repository page, switch to the 'improve-error-handling' branch, and click 'New pull request'.
+Describe the changes and link the issue by mentioning it (#1 if it's the first issue).
+Merge the PR and Close the Issue:
+
+Once the PR is reviewed and approved, merge it.
+Close the issue, commenting that it has been resolved with the PR.
+Issue 2: Refactor Code into Functions
+Description for GitHub Issue:
+The script's readability and reusability could be improved by refactoring the investment and bond calculation code into separate functions.
+
+Steps to Resolve:
+Create a Branch:
+
+Command: git checkout -b refactor-into-functions
+Implement Changes:
+
+Refactor the code for calculating investment interest and bond repayments into separate functions.
+Ensure that the main part of the script calls these functions based on user input.
+Commit and Push:
+
+Commands:
+
+git add finance_calculators.py
+git commit -m "Refactor code into separate functions for better readability"
+git push origin refactor-into-functions
+
+Create a Pull Request:
+
+Navigate to the 'refactor-into-functions' branch on GitHub and click 'New pull request'.
+Describe the refactoring done and reference the issue by its number.
+Merge the PR and Close the Issue:
+
+After review and approval, merge the PR.
+Close the issue with a comment indicating that the code has been successfully refactored.
